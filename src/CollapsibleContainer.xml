@@ -23,7 +23,11 @@
                 <caption>Duration</caption>
                 <description>The duration of the animation, in ms</description>
             </property>
-
+            <property key="startOpen" type="expression" defaultValue="false">
+                <caption>Start Open?</caption>
+                <description>Expression to determine if the content should start open (default false)</description>
+                <returnType type="Boolean" />
+            </property>
         </propertyGroup>
     </properties>
 </widget>
