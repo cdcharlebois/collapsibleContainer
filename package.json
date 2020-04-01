@@ -1,0 +1,33 @@
+{
+  "name": "collapsiblecontainer",
+  "widgetName": "CollapsibleContainer",
+  "version": "1.0.0",
+  "description": "A customizable groupbox for native",
+  "copyright": "Mendix 2019",
+  "author": "Conner",
+  "config": {
+    "widgetPath": "/Users/conner/mendix/p/TwoPly-main/widgets",
+    "projectPath": "/Users/conner/mendix/p/TwoPly-main"
+  },
+  "packagePath": "mendix",
+  "scripts": {
+    "start": "npm run dev",
+    "build": "pluggable-widgets-tools build:js:native",
+    "dev": "pluggable-widgets-tools start:js:native",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:js:native"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Conner/collapsiblecontainer/issues"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "~8.6.0"
+  },
+  "dependencies": {
+    "big.js": "^5.2.2",
+    "react-native-collapsible": "^1.5.2"
+  }
+}

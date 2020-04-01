@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="mendix.collapsiblecontainer.CollapsibleContainer" pluginWidget="true" needsEntityContext="true" offlineCapable="true" supportedPlatform="Native" 
+    xmlns="http://www.mendix.com/widget/1.0/" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Collapsible Container</name>
+    <description>A customizable groupbox for native</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="headerCollapsed" type="widgets" required="true">
+                <caption>Header Collapsed</caption>
+                <description>When this is touched, the content will show</description>
+            </property>
+            <property key="headerOpen" type="widgets" required="true">
+                <caption>Header Open</caption>
+                <description>When this is touched, the content will show</description>
+            </property>
+            <property key="content" type="widgets" required="true">
+                <caption>Content</caption>
+                <description>Content of a box</description>
+            </property>
+            <property key="duration" type="integer" defaultValue="300">
+                <caption>Duration</caption>
+                <description>The duration of the animation, in ms</description>
+            </property>
+
+        </propertyGroup>
+    </properties>
+</widget>
