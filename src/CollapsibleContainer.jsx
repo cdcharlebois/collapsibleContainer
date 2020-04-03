@@ -9,7 +9,7 @@ export class CollapsibleContainer extends Component {
         super(props);
 
         this.state = {
-            isCollapsed: !this.props.startOpen
+            isCollapsed: !this.props.startOpen.value
         }
 
         this.toggleContent = this.toggleContent.bind(this);
